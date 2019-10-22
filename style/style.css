@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.img-carousel {
+    object-fit: cover;
+    /* object-position: 0 40%; */
+    height: 81vh;
+}
+
+footer {
+    /* height: 20px; */ 
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+}
