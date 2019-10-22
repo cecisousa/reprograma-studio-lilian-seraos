@@ -1,0 +1,61 @@
+* {
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    box-sizing: border-box;
+    }
+
+    footer {
+        height: 20px; 
+        background-color: whitesmoke;
+        font-size: 12px;
+    }
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.botoes {
+    margin: 10px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.bnt-cinza {
+    color: gray !important;
+    background-color: whitesmoke;
+    font-size: 16px;
+    border: none;
+    
+}
+
+.partners {
+    margin: 0 auto;
+    width:100%;
+    justify-content: center;
+}
+
+.parceiros {
+    width: 20vw;
+    height: 30vh;
+    margin-right: 2px;
+    padding: 5px;   
+}
+
+.parceiros2{
+    width: 40vw;
+    height: 30vh;
+    margin-right: 2px;
+    padding: 5px;  
+}   
+
+
+
