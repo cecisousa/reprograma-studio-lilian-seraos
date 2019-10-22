@@ -10,13 +10,13 @@ body {
 .img-carousel {
     object-fit: cover;
     /* object-position: 0 40%; */
-    height: 81vh;
+    height: 83vh;
 }
 
 footer {
     /* height: 20px; */ 
     background-color: whitesmoke;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 p {
@@ -25,4 +25,25 @@ p {
 
 .logo {
     width: 150px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 10px;
+}
+
+@media (min-width: 500px) {
+    .block-min-width-500 {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .block-max-width-500 {
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .block-max-width-769 {
+        display: none;
+    }
 }
