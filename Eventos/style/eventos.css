@@ -3,18 +3,25 @@
     font-family: 'EB Garamond', serif;
 }
 
+}
 body {
     box-sizing: border-box;
     }
 
+.sustent {
+        height: 35px;
+        width: 35px;
+}   
     footer {
         height: 20px; 
         background-color: whitesmoke;
         font-size: 12px;
+        display: row;
     }
 
 p {
-    margin: 0;
+    
+    text-align: center;
 }
 
 .logo {
@@ -22,7 +29,7 @@ p {
 }
 
 .botoes {
-    margin: 10px;
+    margin: 0 auto;
     display: flex;
     overflow: auto;
     white-space: nowrap;
@@ -30,32 +37,39 @@ p {
 
 
 .bnt-cinza {
-    color: gray !important;
-    background-color: whitesmoke;
+    color: white!important;
+    background-color: green!important;
     font-size: 16px;
     border: none;
-    
 }
 
+.container-eventos {
+    width: 80%;
+}
 .partners {
     margin: 0 auto;
-    width:100%;
+    widows: 50px;
     justify-content: center;
+    padding: 5px;     
 }
 
 .parceiros {
-    width: 20vw;
-    height: 30vh;
-    margin-right: 2px;
-    padding: 5px;   
+    height: 18vh;
+    padding: 5px;
+    border-radius: 10px;
 }
-
+    
 .parceiros2{
-    width: 40vw;
-    height: 30vh;
-    margin-right: 2px;
+    width: 70%;
+    padding: 5px;
+    height: 100px;
     padding: 5px;  
 }   
 
+.conteudo-eventos {
+    width: 33%;
+    margin: 0 auto; 
+    margin-top: 15px;
+}
 
 
