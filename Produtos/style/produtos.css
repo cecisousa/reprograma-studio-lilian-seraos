@@ -1,0 +1,90 @@
+* {
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.img-carousel {
+    object-fit: cover;
+    /* object-position: 0 40%; */
+    height: 81vh;
+}
+
+footer {
+    /* height: 20px; */ 
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.botoes {
+    margin: 10px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  
+}
+
+
+.bnt-cinza {
+    color: gray !important;
+    background-color: whitesmoke;
+    font-size: 16px;
+    border: none;
+    
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.bnt-branco {
+    background-color: white;
+    font-size: 16px;
+    border: none;
+}
+.borda-none{
+    border: none;
+}
+
+
+/* ///////////////////////////////////////// */
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+    display: block;
+}
+
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.modal-content {
+    background-color: transparent;
+}
+
+@media (min-width:576px) {
+    .modal-dialog {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 992px)
+.modal-lg, .modal-xl {
+    max-width: 900px;
+}
