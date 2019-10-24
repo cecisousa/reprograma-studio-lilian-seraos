@@ -42,6 +42,10 @@ footer {
     padding-top: 10px;
 }
 
+footer > p {
+    padding-bottom: 12px;
+}
+
 p {
     margin: 0;
 }
@@ -67,7 +71,7 @@ p {
     
 }
 
-img{
+.img-thumbnail{
     width: 50%;
     height: 50%;
 }
@@ -117,6 +121,16 @@ img{
     background-color: transparent;
 }
 
+/* @media (max-width:576px) {
+    .modal-dialog {
+        max-width: 750px;
+    }
+    img{
+        width: 20%;
+        height: 10%;
+    }
+} */
+
 /* @media (min-width:576px) {
     .modal-dialog {
         max-width: 750px;
@@ -145,4 +159,44 @@ img{
     .block-max-width-992 {
         display: none;
     }
+}
+
+/* BOTÃO SCROLL */
+
+.smoothscroll-top {
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    text-align:center;
+    z-index:99;
+    background-color:#DEA257;
+    color:#fff;
+    width:47px;
+    height:44px;
+    line-height:44px;
+    right:25px;
+    bottom:-25px;
+    padding-top:2px;
+    border-radius:5px;
+    transition:all .5s ease-in-out;
+    transition-delay:.2s;
+    }
+    
+.smoothscroll-top:hover {
+    background-color:#DEA257;
+    color:#fff;
+    transition:all .2s ease-in-out;
+    transition-delay:0;
+}
+    
+.smoothscroll-top.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity:1;
+    bottom:60px;
+}
+    
+.smoothscroll-top i.fa {
+    line-height:inherit;
 }

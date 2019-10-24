@@ -25,6 +25,10 @@ footer {
     padding-top: 10px;
 }
 
+footer > p {
+    padding-bottom: 12px;
+}
+
 p {
     margin: 0;
 }

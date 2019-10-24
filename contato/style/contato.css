@@ -23,6 +23,10 @@ footer {
     padding-top: 10px;
 }
 
+footer > p {
+    padding-bottom: 12px;
+}
+
 h2 {
     margin-bottom: 2.5%;
     color: #DEA257;
