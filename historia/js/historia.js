@@ -8,7 +8,7 @@ $(function(){
     });
     $('.smoothscroll-top').on('click', scrollToTop);
 });
-
+ 
 function scrollToTop() {
     verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
     element = $('body');
