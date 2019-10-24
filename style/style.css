@@ -13,10 +13,15 @@ body {
     height: 82vh;
 }
 
+nav {
+    border-bottom: 3px solid #DEA257;
+}
+
 footer {
-    /* height: 20px; */ 
     background-color: white;
     font-size: 12px;
+    border-top: 3px solid #DEA257;
+    padding-top: 10px;
 }
 
 p {
