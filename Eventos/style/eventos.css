@@ -11,11 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-.sustent {
-        height: 35px;
-        width: 35px;
-}   
-
 footer {
         background-color: white;
         font-size: 12px;
@@ -68,7 +63,7 @@ p {
 }
 
 .parceiros2{
-    width: 80%;
+    width: 40%;
     padding: 6px;
     height: 70px;
     padding: 2px;  
