@@ -158,6 +158,18 @@ footer > p {
     }
 }
 
+@media (max-width: 700px) {
+    .cta {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 540px) {
+    .cta {
+        margin-bottom: 20%;
+    }
+}
+
 @media (max-width: 440px) {
     .historia {
         width: 90%;
@@ -172,7 +184,7 @@ footer > p {
     }
 
     .cta {
-        margin-bottom: 15%;
+        margin-bottom: 25%;
     }
 }
 
@@ -190,7 +202,7 @@ footer > p {
     }
 
     .cta {
-        margin-bottom: 20%;
+        margin-bottom: 30%;
     }
 }
 
